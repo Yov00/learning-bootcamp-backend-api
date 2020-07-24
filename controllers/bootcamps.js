@@ -2,7 +2,6 @@
 // @route   GET /api/v1/bootcamps
 // @access  Public
 exports.getBootcamps = (req,res,next)=>{
-    console.log(req.headers);
     res.status(200).json({success:true, msg:'Show all bootcamps'})
 }
 
